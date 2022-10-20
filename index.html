@@ -20,7 +20,7 @@
 </head>
 <body>
 	<!-- Navbar section -->
-	<nav class="navbar navbar-light text-center">
+	<nav id="home" class="navbar navbar-light text-center">
 			  <a class="navbar-brand" href="#navbarNav">
 			    <i class="fa-solid fa-house"></i>
 			    Home
@@ -69,7 +69,7 @@
 				<!-- Projects -->
 				<div class="min-vh-100 p-3" id="container1">
 					<h2 id="projects" class="pt-3">Projects</h2>
-					<div class="justify-content-md-around d-md-flex">
+					<div class="row justify-content-md-around d-md-flex">
 						<!-- First Card -->
 						<div class="card col-md-3 col-8 offset-2 offset-md-0 mt-3">
 						  <a href="https://arteamores.com/" target="_blank"><img src="./images/shopify1.png" class="card-img-top p-3" alt="arte amores"></a>
@@ -103,6 +103,42 @@
 						</div>
 						<!-- End of Third Card -->
 					</div>
+
+					<div class="row justify-content-md-around d-md-flex">
+						<!-- Fourth Card -->
+						<div class="card col-md-3 col-8 offset-2 offset-md-0 mt-3">
+						  <a href="./projects/2/tribute-page.html" target="_blank"><img src="./images/tribute-page.png" class="card-img-top p-3" alt="tribute page"></a>
+						  <div class="card-body">
+						    <h5 class="card-title">Tribute Page</h5>
+						    <p class="card-text">This is a tribute page wherein you can find more information about Jose Rizal's life in an orderly manner.</p>
+						  </div>
+						 
+						</div>
+						<!-- End of Fourth Card -->
+
+						<!-- Start of Fifth Card -->
+
+						<div class="card col-md-3 col-8 offset-2 offset-md-0 mt-3">
+						  <a href="./projects/1/nutrition-label.html" target="_blank"><img src="./images/nutrition-label.png" class="card-img-top p-3" alt="nutrition label"></a>
+						  <div class="card-body">
+						    <h5 class="card-title">Nutrition Label</h5>
+						    <p class="card-text">Typography is the art of styling your text to be easily readable and suit its purpose. This project taught me how to learn how to style text, adjust line height, and position your text using CSS.</p>
+						  </div>
+						  
+						</div>
+						<!-- End of Fifth Card -->
+
+						<!-- Start of Sixth Card -->
+						<div class="card col-md-3 col-8 offset-2 offset-md-0 mt-3">
+						  <a href="./projects/3/index.html" target="_blank"><img src="./images/guapo.png" class="card-img-top p-3" alt="guapo"></a>
+						  <div class="card-body">
+						    <h5 class="card-title">Guapo</h5>
+						    <p class="card-text">This is a work of progress. My attempt in creating a static ecommerce website using HTML, CSS and Bootstrap.</p>
+						  </div>
+						  
+						</div>
+						<!-- End of Sixth Card -->
+					</div>
 				<!-- End of Projects -->
 
 				<!-- Tools -->
@@ -131,6 +167,15 @@
 				    </div>
 				</div>
 				<!-- End of Contact -->	
+
+				<!-- Quotation -->
+				<section>
+					<div class="row">
+					<blockquote class="col-8 offset-2"><strong>"You don't have to be great to get started but you have to get started to be great."</strong> <em>-Les Brown</em></blockquote>
+					<div></div>
+				</section>
+				<!-- End of Quotation -->
+
 				<!-- Pre-Footer -->
 				<div id="pre-footer" class="row mb-3">
 					<div class="d-none d-md-inline-block col-md-6 my-4">
@@ -140,17 +185,17 @@
 					<div class="col-md-6 my-4">
 						<h4 class="text-center my-4">Message Me</h4>
 						<form>
-							<div class="form-group">
+							<div class="form-group" required>
 								<label>Full Name</label>
-								<input type="text" class="form-control">
+								<input type="text" class="form-control" placeholder="e.g. John Doe">
 							</div>
 							<div class="form-group">
 								<label>Email Address</label>
-								<input type="email" class="form-control">
+								<input type="email" class="form-control" placeholder="username@email.com">
 							</div>
 							<div class="form-group">
 								<label>Message</label>
-								<textarea class="form-control"></textarea>
+								<textarea class="form-control" placeholder="Enter your message here"></textarea>
 							</div>
 							<!-- Button trigger modal -->
 							<button id="send-message-button" type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop">

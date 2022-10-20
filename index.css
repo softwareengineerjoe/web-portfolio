@@ -8,6 +8,7 @@ body{
 	font-family: 'Mukta', sans-serif;
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
+	
 }
 
 html {
@@ -64,4 +65,9 @@ div a{
 	bottom: 8%;
 	right: 18px;
 	text-align: center;
+}
+
+blockquote{
+	font-size: 20px;
+	padding: 5rem;
 }

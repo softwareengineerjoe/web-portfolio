@@ -1,0 +1,79 @@
+*{
+	font-family: 'Hammersmith One', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+
+}
+
+#navigation{
+	background-color: #425F57;
+
+}
+
+.search-button{
+	border-style: solid;
+	border-color: black;
+	border-radius: 18px;
+	background-color: #749F82;
+	font-size: 1.25rem;
+	}
+
+#bg-image{
+	min-height: 50vh;
+	background-position: center;
+	position: relative;
+	background-image: url(./images/header.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.container{
+	padding-top: 20rem;
+	text-align: right;
+	font-size: 7vw 7vh;
+}
+
+#about-us{
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+	text-align: center;
+	background-color: #EDE4E0;
+
+}
+
+.nav-item{
+	margin: 1rem;
+	border-color: #white;
+	border-style: solid;
+	border-radius: 25px;
+}
+
+footer{
+	background-color: #425F57;
+	text-align: center;
+}
+
+
+.read-more{
+	border-radius: 12px;
+	text-decoration: none;
+	background-color: #749F82;
+	color: white;
+	border-color: #425F57;
+}
+
+section div button{
+	text-decoration: none;
+}
+
+.card-deck{
+	text-align: center;
+	background-color: #EDE4E0;
+	color: black;
+	padding-top: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin-bottom: 2rem;
+}
