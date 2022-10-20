@@ -1,0 +1,60 @@
+/*CSS Reset*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Bebas Neue', cursive;
+	font-family: 'Hammersmith One', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Mukta', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav{
+	background-color: #B4CDE6;
+}
+
+.form-group{
+	text-align: left;
+}
+
+
+footer{
+	text-align: center;
+	color: white;
+	background-color: #7895B2;
+}
+
+#send-message-button{
+	background-color: #7895B2;
+	color: white;
+}
+
+#contact-me{
+	text-decoration: none;
+}
+
+#about-me{
+	background-color: #FFF7E9;
+}
+
+#container1{
+	background-color: #FFF7E9;
+}
+
+div .card{
+	background-color: #B4CDE6;
+}
+
+#pre-footer{
+	background-color: #B4CDE6
+}
+
+div a{
+	text-decoration: none;
+	color: black;
+}
