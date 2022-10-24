@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thanks for sharing your thoughts!</p>
+<div>
+    <form id="survey-form">
+        <label for="name-label" id="name-label">Name<input id="name" name="name" type="text" required placeholder="Enter your name" /></label>
+        <label for="email-label" id="email-label">Email<input id="email" name="email-label" type="email" required placeholder="Enter your email" /></label>
+        <label for="number" id="number-label">Age<input id="number" name="number" type="number" required placeholder="Age" min="13" max="120" /></label>
+        
+        <label for="dropdown">What is your current employment status?
+        <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Employed</option>
+            <option
+value="2">Unemployed</option>
+            <option
+value="3">Job Seeker</option>
+            <option
+value="4">Retired</option>
+            <option value="5">Other</option>
+          </select>
+          </label>
+          
+      <fieldset>
+        Please select your gender:
+        <label for="male"><input id="male" type="radio" value="value-1" name="gender" class="inline" /> Male</label>
+        <label for="female"><input id="female" type="radio" value="value-2" name="gender" class="inline" /> Female</label>
+<br>
+What do you like about your job?
+         <label><input id="checkbox-1" type="checkbox" required value="checkbox-1" class="inline" /> Alignment between personal and company values.
+</label>
+        <label><input id="checkbox-2" type="checkbox" required value="checkbox-2" class="inline" /> Feeling a sense of belonging and liking the people you work with.
+</label>
+        <label><input id="checkbox-3" type="checkbox" required value="checkbox-3" class="inline" /> Company culture.
+</label>
+        <label><input id="checkbox-4" type="checkbox" required value="checkbox-4" class="inline" /> Personal development and growth.
+</label>
+        <label><input id="checkbox-5" type="checkbox" required value="checkbox-5" class="inline" /> Challenge and professional development.
+</label>
+        <label><input id="checkbox-6" type="checkbox" required value="checkbox-6" class="inline" /> Contributing to a larger purpose.
+</label>
+        <label><input id="checkbox-7" type="checkbox" required value="checkbox-7" class="inline" /> Having a good boss.
+</label>
+        <label><input id="checkbox-8" type="checkbox" required value="checkbox-8" class="inline" /> Being well paid.
+</label>
+        <label><input id="checkbox-9" type="checkbox" required value="checkbox-9" class="inline" /> Makes good use of your skills and talents.
+</label>
+        <label><input id="checkbox-10" type="checkbox" required value="checkbox-10" class="inline" /> Being part of a winning team/ company.
+</label>
+          
+<br>
+         <label for="bio">Any comments:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Comments/Suggestion"></textarea>
+        </label>
+        </fieldset>
+</div>
+      </fieldset>
+        <input id="submit" type="submit" value="Submit" /> 
+
+<br>
+    </form>
+  </body>
+</html>
